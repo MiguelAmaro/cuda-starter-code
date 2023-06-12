@@ -69,5 +69,6 @@ int main(void)
   
   printf("parallel gpu c\n");
   CudaRunCodeFromC();
+  printf("done\n");
   return;
 }

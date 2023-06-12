@@ -11,9 +11,4 @@ extern "C" void CudaRunCodeFromC(void)
   cudaDeviceSynchronize();
   return;
 }
-extern "C" void CudaWaitForKernel(void)
-{
-  cudaDeviceSynchronize();
-  return;
-}
 // int main(void) { return; } not needed
